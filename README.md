@@ -1,6 +1,18 @@
 Mapbox GoPro video map overhaul based on https://www.mapbox.com/blog/gopro-video-maps/ The demo is designed to get you up and running with a working example in a few as steps as possible. For a more robust setup consider a dynamic upload from the GPS enabled device direct to your favorite database. Possible use cases include visualizing video captured by UAV or quad copter and automation from device to final output.
 
-4 files are required; place them in a folder anywhere on your local environment/server-public_html:
+Use instructions: 
+click play on the video, notice the icon moving in sync with the video location
+
+Pause the video and the animated icon will pause
+
+Drag the video seek bar and the icon will move to the location on the map that corresponds to the time in the video
+
+Click anywhere on the map and the icon will snap to the nearest location on the path and update the video time to this location
+
+Drag the icon to any location on the map and it will snap to the nearest location on the path and update the video time to this location
+
+
+Setup instructions: 4 files are required; place them in a folder anywhere on your local environment/server-public_html:
 
 Video file - you are welcome to use the reference included in the demo until you switch it out with your own
 

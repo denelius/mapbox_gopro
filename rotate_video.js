@@ -247,7 +247,7 @@ video.on('timeupdate', function() {
 
 video.on('ended', function() {
 	set_marker(pjson[pjson.length-1]);
-})
+});
 
 function lineDistance(x1, y1, x2, y2) {
 	var xs = 0, ys = 0;
